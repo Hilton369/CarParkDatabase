@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<!--(c) Saeed Mirjalili-->
+<!--Update a Record in a Table-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update a Record in a Table</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <p>Update the type of Vehicle:</p>
+    <form method="post" action="php/updateRecord.php">
+      <label>License Plate</label> <input type="text" name="plate" /> <br />
+      <p>Change the type to:</p>
+      <select name="vtype">
+        <option>Car</option>
+        <option>SUV</option>
+        <option>Truck</option>
+        <option>Motorbike</option>
+      </select>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <a href='index.html'>Back to the Homepage</a>
+  </body>
+</html>
